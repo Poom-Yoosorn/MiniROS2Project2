@@ -30,9 +30,9 @@
 
 
         <xacro:box_inertia  m="5.0" 
-                            l="${base_length}" 
-                            w="${base_width}" 
-                            h="${base_height}" 
+                            l="${2*base_length}" 
+                            w="${2*base_width}" 
+                            h="${2*base_height}" 
                             xyz="0 0 ${base_height / 2}"  
                             rpy="0 0 0"/>
 
@@ -60,8 +60,8 @@
 
 
             <xacro:solid_cylinder_inertia m="1.0" 
-                                          r="${wheel_radius}"  
-                                          h="${wheel_length}" 
+                                          r="${2*wheel_radius}"  
+                                          h="${2*wheel_length}" 
                                           xyz="0 0 0" 
                                           rpy="${pi / 2.0} 0 0"/>
 
@@ -74,7 +74,6 @@
 
     <link name="caster_wheel_link">
         <visual>
-
             <geometry>
                 <sphere radius="${caster_wheel_radius}" />
             </geometry>
@@ -90,7 +89,7 @@
         </collision>
 
         <xacro:solid_sphere_inertia     m="0.5" 
-                                        r="${caster_wheel_radius}"   
+                                        r="${2*caster_wheel_radius}"   
                                         xyz="0 0 0" 
                                         rpy="0 0 0"/>
     </link>
