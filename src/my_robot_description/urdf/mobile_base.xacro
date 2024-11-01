@@ -21,7 +21,14 @@
             <origin xyz="0 0 ${base_height / 2}" rpy="0 0 0" />
             <material name="blue" />
 
+            <xacro:box_inertia m="5.0" 
+                               l="${base_length}" 
+                               w="${base_width}" 
+                               h="${base_height}" 
+                               xyz="0 0 ${base_height / 2}"  
+                               rpy="0 0 0"/>
         </visual>
+
     </link>
 
 
@@ -36,6 +43,12 @@
                 <material name="grey" />
 
             </visual>
+
+            <xacro:solid_cylinder_inertia m="1.0" 
+                                          r="${wheel_radius}"  
+                                          h="${wheel_length}" 
+                                          xyz="0 0 0" 
+                                          rpy="${pi / 2.0} 0 0"/>
         </link>
     </xacro:macro>
     <xacro:wheel_link prefix="right" />
@@ -50,7 +63,10 @@
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <material name="grey" />
-
+            <xacro:solid_sphere_inertia   m="0.5" 
+                                          r="${caster_wheel_radius}"   
+                                          xyz="0 0 0" 
+                                          rpy="0 0 0"/>
         </visual>
     </link>
 
