@@ -1,7 +1,11 @@
+/home/poom/Desktop/ros_ws/install/my_robot_description/share/my_robot_description//urdf/arm.xacro
+/home/poom/Desktop/ros_ws/install/my_robot_description/share/my_robot_description//urdf/arm_gazebo.xacro
+/home/poom/Desktop/ros_ws/install/my_robot_description/share/my_robot_description//urdf/camera.xacro
 /home/poom/Desktop/ros_ws/install/my_robot_description/share/my_robot_description//urdf/common_properties.xacro
 /home/poom/Desktop/ros_ws/install/my_robot_description/share/my_robot_description//urdf/mobile_base.xacro
 /home/poom/Desktop/ros_ws/install/my_robot_description/share/my_robot_description//urdf/mobile_base_gazebo.xacro
 /home/poom/Desktop/ros_ws/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf.xacro
+/home/poom/Desktop/ros_ws/install/my_robot_description/share/my_robot_description//urdf/standalone_arm.urdf.xacro
 /home/poom/Desktop/ros_ws/install/my_robot_description/share/my_robot_description//launch/display.launch.py
 /home/poom/Desktop/ros_ws/install/my_robot_description/share/my_robot_description//launch/display.launch.xml
 /home/poom/Desktop/ros_ws/install/my_robot_description/share/my_robot_description//rviz/urdf_config.rviz
