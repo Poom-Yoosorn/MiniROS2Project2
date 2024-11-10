@@ -25,7 +25,7 @@ class CountUntilClientNode(Node):
         #Send the Goal
         self.get_logger().info("Sending goal")
         self.count_until_client_. \
-            send_goal_async(goal). \
+            send_goal_async(goal, feedback_callback=self.goal_feedback_callback). \
             add_done_callback(self.goal_response_callback)
 
     def goal_response_callback(self, future):
@@ -45,6 +45,10 @@ class CountUntilClientNode(Node):
             self.get_logger().error("Aborted")
 
         self.get_logger().info("Result : " + str(result.reached_number))
+
+    def goal_feedback_callback(self, feedback_msg):
+        number = feedback_msg.feedback.current_number
+        self.get_logger().info("Got Feedback : " + str(number))
 
 
 
