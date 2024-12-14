@@ -1,0 +1,9 @@
+[0.007s] Invoking command in '/home/poom/Desktop/ros_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/Desktop/ros_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/poom/Desktop/ros_ws/build/my_robot_interfaces -- -j16 -l16
+[0.034s] failed to create symbolic link '/home/poom/Desktop/ros_ws/build/my_robot_interfaces/ament_cmake_python/my_robot_interfaces/my_robot_interfaces' because existing path cannot be removed: Is a directory
+[0.034s] [  3%] Built target my_robot_interfaces__cpp
+[0.034s] [ 12%] Built target my_robot_interfaces__rosidl_generator_c
+[0.034s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_my_robot_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_my_robot_interfaces] Error 1
+[0.034s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_my_robot_interfaces.dir/all] Error 2
+[0.034s] gmake[1]: *** Waiting for unfinished jobs....
+[0.035s] gmake: *** [Makefile:146: all] Error 2
+[0.036s] Invoked command in '/home/poom/Desktop/ros_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/Desktop/ros_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/poom/Desktop/ros_ws/build/my_robot_interfaces -- -j16 -l16

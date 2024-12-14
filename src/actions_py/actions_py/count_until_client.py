@@ -29,7 +29,7 @@ class CountUntilClientNode(Node):
             add_done_callback(self.goal_response_callback)
         
         #Send the Cancel Request 2 seconds later
-        self.timer_ = self.create_timer(2.0,self.cancel_goal)
+        # self.timer_ = self.create_timer(2.0,self.cancel_goal)
     
     def cancel_goal(self):
         self.get_logger().info("Send a cancel request")

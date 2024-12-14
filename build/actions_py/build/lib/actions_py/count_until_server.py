@@ -2,10 +2,11 @@
 import rclpy
 import time
 from rclpy.node import Node
-from rclpy.action import ActionServer
+from rclpy.action import ActionServer, GoalResponse, CancelResponse
 from rclpy.action.server import ServerGoalHandle
 from my_robot_interfaces.action import CountUntil
-
+from rclpy.executors import MultiThreadedExecutor
+from rclpy.callback_groups import ReentrantCallbackGroup
 
 class CountUntilServerNode(Node):
     def __init__(self):
@@ -14,8 +15,27 @@ class CountUntilServerNode(Node):
                                                   self, 
                                                   CountUntil, 
                                                   "count_until",
-                                                  execute_callback=self.execute_callback)
+                                                  goal_callback=self.goal_callback,
+                                                  cancel_callback=self.cancle_callback,
+                                                  execute_callback=self.execute_callback,
+                                                  callback_group=ReentrantCallbackGroup())
         self.get_logger().info("Action Server has been started")
+
+    def goal_callback(self,goal_request: CountUntil.Goal):
+        self.get_logger().info("Recieved a goal")
+        # validate the goal request
+        if goal_request.target_number <= 0:
+            self.get_logger().info("Rejecting the goal")
+            return GoalResponse.REJECT
+        self.get_logger().info("Accepting the goal")
+        return GoalResponse.ACCEPT
+    
+
+    def cancle_callback(self, goal_handle: ServerGoalHandle):
+        self.get_logger().info("Recieve a cancel request")
+        return CancelResponse.ACCEPT # or REJECT
+
+
 
     def execute_callback(self, goal_handle: ServerGoalHandle):
         # Get request from Goal
@@ -24,24 +44,32 @@ class CountUntilServerNode(Node):
 
         # Execute the action
         self.get_logger().info("Executing the Goal")
+        feedback = CountUntil.Feedback()
+        result = CountUntil.Result()
         counter = 0
         for i in range(target_number):
+            if goal_handle.is_cancel_requested:
+                self.get_logger().info("Canceling the Goal")
+                goal_handle.canceled()
+                result.reached_number = counter
+                return result
             counter += 1
             self.get_logger().info(str(counter))
+            feedback.current_number = counter
+            goal_handle.publish_feedback(feedback)
             time.sleep(period)
 
-        #Once done, ste goal final state
+        #Once done, set goal final state
         goal_handle.succeed()
 
-        #and send the result
-        result = CountUntil.Result()
+        #and send the result  
         result.reached_number = counter
         return result
 
 def main(args=None):
     rclpy.init(args=args)
     node = CountUntilServerNode()
-    rclpy.spin(node)
+    rclpy.spin(node, MultiThreadedExecutor())
     rclpy.shutdown()
 
 
