@@ -210,6 +210,43 @@ count_until_server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_until_server.dir/build.make CMakeFiles/count_until_server.dir/build
 .PHONY : count_until_server/fast
 
+#=============================================================================
+# Target rules for targets named count_until_client
+
+# Build rule for target.
+count_until_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 count_until_client
+.PHONY : count_until_client
+
+# fast build rule for target.
+count_until_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_until_client.dir/build.make CMakeFiles/count_until_client.dir/build
+.PHONY : count_until_client/fast
+
+src/count_until_client.o: src/count_until_client.cpp.o
+.PHONY : src/count_until_client.o
+
+# target to build an object file
+src/count_until_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_until_client.dir/build.make CMakeFiles/count_until_client.dir/src/count_until_client.cpp.o
+.PHONY : src/count_until_client.cpp.o
+
+src/count_until_client.i: src/count_until_client.cpp.i
+.PHONY : src/count_until_client.i
+
+# target to preprocess a source file
+src/count_until_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_until_client.dir/build.make CMakeFiles/count_until_client.dir/src/count_until_client.cpp.i
+.PHONY : src/count_until_client.cpp.i
+
+src/count_until_client.s: src/count_until_client.cpp.s
+.PHONY : src/count_until_client.s
+
+# target to generate assembly for a file
+src/count_until_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_until_client.dir/build.make CMakeFiles/count_until_client.dir/src/count_until_client.cpp.s
+.PHONY : src/count_until_client.cpp.s
+
 src/count_until_server.o: src/count_until_server.cpp.o
 .PHONY : src/count_until_server.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... actions_cpp_uninstall"
 	@echo "... uninstall"
+	@echo "... count_until_client"
 	@echo "... count_until_server"
+	@echo "... src/count_until_client.o"
+	@echo "... src/count_until_client.i"
+	@echo "... src/count_until_client.s"
 	@echo "... src/count_until_server.o"
 	@echo "... src/count_until_server.i"
 	@echo "... src/count_until_server.s"
