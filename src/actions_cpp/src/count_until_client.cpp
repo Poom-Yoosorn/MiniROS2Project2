@@ -38,10 +38,21 @@ public:
         RCLCPP_INFO(this->get_logger(),"Sending a goal");
         count_until_client_->async_send_goal(goal, options);
 
-
+        //Cancel the Goal(Test)
+        timer_ = this->create_wall_timer(
+            std::chrono::seconds(2),
+            std::bind(&CountUntilClientNode::timer_callback, this));
     }
 
 private:
+
+    void timer_callback()
+    {
+        RCLCPP_INFO(this->get_logger(),"Cancel the goal");
+        count_until_client_->async_cancel_goal(goal_handle_);
+        timer_->cancel();
+    }
+
     //Callback to know if the goal was accepted or rejected
     void goal_response_callback(const CountUntilGoalHandle::SharedPtr &goal_handle)
     {
@@ -49,6 +60,7 @@ private:
             RCLCPP_INFO(this->get_logger(),"Goal got rejected");
         }
         else{
+            this->goal_handle_ = goal_handle;
             RCLCPP_INFO(this->get_logger(),"Goal got accepted");
         }
     }
@@ -63,7 +75,11 @@ private:
         }
         else if (status == rclcpp_action::ResultCode::ABORTED){
             RCLCPP_ERROR(this->get_logger(),"Aborted");
+        }    
+        else if (status == rclcpp_action::ResultCode::CANCELED){
+            RCLCPP_WARN(this->get_logger(),"Canceled");
         }
+        
 
         int reached_number = result.result->reached_number;
         RCLCPP_INFO(this->get_logger(),"Result: %d",reached_number);
@@ -79,6 +95,8 @@ private:
     }
 
     rclcpp_action::Client<CountUntil>::SharedPtr count_until_client_;
+    rclcpp::TimerBase::SharedPtr timer_;
+    CountUntilGoalHandle::SharedPtr goal_handle_;
 };
 
 
