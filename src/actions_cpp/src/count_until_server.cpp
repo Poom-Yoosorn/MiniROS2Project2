@@ -31,6 +31,18 @@ private:
     {
         (void)uuid;
         RCLCPP_INFO(this->get_logger(), "Received a goal");
+
+        //Policy:refuse new goal if one goal is being active
+        {
+            std::lock_guard<std::mutex> lock(mutex_);
+            if(goal_handle_){
+                if (goal_handle_->is_active()){
+                    RCLCPP_INFO(this->get_logger(), "A goal is still active,reject new goal");
+                    return rclcpp_action::GoalResponse::REJECT;
+                }
+            }
+        }
+
         if (goal->target_number <= 0.0){
             RCLCPP_INFO(this->get_logger(), "Rejecting the goal");
             return rclcpp_action::GoalResponse::REJECT;
@@ -56,6 +68,11 @@ private:
 
     void execute_goal(const std::shared_ptr<CountUntilGoalHandle> goal_handle)
     {
+        {
+            std::lock_guard<std::mutex> lock(mutex_);
+            this->goal_handle_ = goal_handle;
+        }
+
         //Get request from goal
         int target_number = goal_handle->get_goal()->target_number;
         double period = goal_handle->get_goal()->period;
@@ -89,6 +106,8 @@ private:
 
     rclcpp_action::Server<CountUntil>::SharedPtr count_until_server_;
     rclcpp::CallbackGroup::SharedPtr cb_group_;
+    std::mutex mutex_;
+    std::shared_ptr<CountUntilGoalHandle> goal_handle_;
 };
 
 int main(int argc, char **argv)
