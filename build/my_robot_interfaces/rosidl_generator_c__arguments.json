@@ -3,7 +3,8 @@
   "output_dir": "/home/poom/Desktop/ros_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/poom/Desktop/ros_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/CountUntil.idl"
+    "/home/poom/Desktop/ros_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/CountUntil.idl",
+    "/home/poom/Desktop/ros_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/MoveToTarget.idl"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
@@ -29,6 +30,7 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
     "/home/poom/Desktop/ros_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/action/CountUntil.idl",
+    "/home/poom/Desktop/ros_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/action/MoveToTarget.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl",

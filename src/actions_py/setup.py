@@ -21,7 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
             "count_until_server = actions_py.count_until_server:main",
-            "count_until_client = actions_py.count_until_client:main"
+            "count_until_client = actions_py.count_until_client:main",
+            "move_to_target_server = actions_py.move_to_target_server:main",
+            "move_to_target_client = actions_py.move_to_target_client:main"
         ],
     },
 )

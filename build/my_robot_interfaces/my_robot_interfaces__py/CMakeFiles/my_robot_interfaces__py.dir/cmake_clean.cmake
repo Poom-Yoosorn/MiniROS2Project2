@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/my_robot_interfaces/action/__init__.py"
   "../rosidl_generator_py/my_robot_interfaces/action/_count_until.py"
   "../rosidl_generator_py/my_robot_interfaces/action/_count_until_s.c"
+  "../rosidl_generator_py/my_robot_interfaces/action/_move_to_target.py"
+  "../rosidl_generator_py/my_robot_interfaces/action/_move_to_target_s.c"
   "CMakeFiles/my_robot_interfaces__py"
 )
 

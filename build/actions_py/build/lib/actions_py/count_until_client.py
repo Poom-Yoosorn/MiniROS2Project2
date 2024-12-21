@@ -66,7 +66,6 @@ def main(args=None):
     rclpy.init(args=args)
     node = CountUntilClientNode()
     node.send_goal(5 ,1.0)
-    # node.send_goal(6 ,0.7)
     rclpy.spin(node)
     rclpy.shutdown()
 

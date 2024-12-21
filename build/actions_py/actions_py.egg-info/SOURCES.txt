@@ -11,6 +11,8 @@ setup.py
 actions_py/__init__.py
 actions_py/count_until_client.py
 actions_py/count_until_server.py
+actions_py/move_to_target_client.py
+actions_py/move_to_target_server.py
 actions_py.egg-info/PKG-INFO
 actions_py.egg-info/SOURCES.txt
 actions_py.egg-info/dependency_links.txt
