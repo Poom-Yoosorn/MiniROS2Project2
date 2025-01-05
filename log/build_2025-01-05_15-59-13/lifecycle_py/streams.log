@@ -1,0 +1,41 @@
+[0.385s] Invoking command in '/home/poom/Desktop/ros_ws/build/lifecycle_py': PYTHONPATH=/home/poom/Desktop/ros_ws/build/lifecycle_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/poom/Desktop/ros_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/poom/Desktop/ros_ws/build/lifecycle_py/build
+[0.527s] running develop
+[0.530s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.530s]   warnings.warn(
+[0.598s] Removing /home/poom/Desktop/ros_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle-py.egg-link (link to .)
+[0.613s] Invoked command in '/home/poom/Desktop/ros_ws/build/lifecycle_py' returned '0': PYTHONPATH=/home/poom/Desktop/ros_ws/build/lifecycle_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/poom/Desktop/ros_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/poom/Desktop/ros_ws/build/lifecycle_py/build
+[0.613s] Invoking command in '/home/poom/Desktop/ros_ws/src/lifecycle_py': PYTHONPATH=/home/poom/Desktop/ros_ws/build/lifecycle_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/poom/Desktop/ros_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lifecycle_py build --build-base /home/poom/Desktop/ros_ws/build/lifecycle_py/build install --record /home/poom/Desktop/ros_ws/build/lifecycle_py/install.log --single-version-externally-managed install_data --force
+[0.723s] running egg_info
+[0.724s] writing ../../build/lifecycle_py/lifecycle_py.egg-info/PKG-INFO
+[0.724s] writing dependency_links to ../../build/lifecycle_py/lifecycle_py.egg-info/dependency_links.txt
+[0.724s] writing entry points to ../../build/lifecycle_py/lifecycle_py.egg-info/entry_points.txt
+[0.724s] writing requirements to ../../build/lifecycle_py/lifecycle_py.egg-info/requires.txt
+[0.724s] writing top-level names to ../../build/lifecycle_py/lifecycle_py.egg-info/top_level.txt
+[0.725s] reading manifest file '../../build/lifecycle_py/lifecycle_py.egg-info/SOURCES.txt'
+[0.726s] writing manifest file '../../build/lifecycle_py/lifecycle_py.egg-info/SOURCES.txt'
+[0.726s] running build
+[0.727s] running build_py
+[0.727s] copying lifecycle_py/number_publisher.py -> /home/poom/Desktop/ros_ws/build/lifecycle_py/build/lib/lifecycle_py
+[0.727s] copying lifecycle_py/move_to_target_server.py -> /home/poom/Desktop/ros_ws/build/lifecycle_py/build/lib/lifecycle_py
+[0.727s] copying lifecycle_py/lifecycle_node_manager.py -> /home/poom/Desktop/ros_ws/build/lifecycle_py/build/lib/lifecycle_py
+[0.727s] running install
+[0.727s] running install_lib
+[0.727s] creating /home/poom/Desktop/ros_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py
+[0.727s] copying /home/poom/Desktop/ros_ws/build/lifecycle_py/build/lib/lifecycle_py/number_publisher.py -> /home/poom/Desktop/ros_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py
+[0.727s] copying /home/poom/Desktop/ros_ws/build/lifecycle_py/build/lib/lifecycle_py/__init__.py -> /home/poom/Desktop/ros_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py
+[0.728s] copying /home/poom/Desktop/ros_ws/build/lifecycle_py/build/lib/lifecycle_py/move_to_target_server.py -> /home/poom/Desktop/ros_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py
+[0.728s] copying /home/poom/Desktop/ros_ws/build/lifecycle_py/build/lib/lifecycle_py/lifecycle_node_manager.py -> /home/poom/Desktop/ros_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py
+[0.728s] byte-compiling /home/poom/Desktop/ros_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py/number_publisher.py to number_publisher.cpython-310.pyc
+[0.728s] byte-compiling /home/poom/Desktop/ros_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py/__init__.py to __init__.cpython-310.pyc
+[0.728s] byte-compiling /home/poom/Desktop/ros_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py/move_to_target_server.py to move_to_target_server.cpython-310.pyc
+[0.729s] byte-compiling /home/poom/Desktop/ros_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py/lifecycle_node_manager.py to lifecycle_node_manager.cpython-310.pyc
+[0.729s] running install_data
+[0.729s] copying resource/lifecycle_py -> /home/poom/Desktop/ros_ws/install/lifecycle_py/share/ament_index/resource_index/packages
+[0.729s] copying package.xml -> /home/poom/Desktop/ros_ws/install/lifecycle_py/share/lifecycle_py
+[0.729s] running install_egg_info
+[0.730s] Copying ../../build/lifecycle_py/lifecycle_py.egg-info to /home/poom/Desktop/ros_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py-0.0.0-py3.10.egg-info
+[0.730s] running install_scripts
+[0.741s] Installing lifecycle_node_manager = lifecycle_py.lifecycle_node_manager:mainmove_to_target_server script to /home/poom/Desktop/ros_ws/install/lifecycle_py/lib/lifecycle_py
+[0.742s] Installing number_publisher script to /home/poom/Desktop/ros_ws/install/lifecycle_py/lib/lifecycle_py
+[0.742s] writing list of installed files to '/home/poom/Desktop/ros_ws/build/lifecycle_py/install.log'
+[0.753s] Invoked command in '/home/poom/Desktop/ros_ws/src/lifecycle_py' returned '0': PYTHONPATH=/home/poom/Desktop/ros_ws/build/lifecycle_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/poom/Desktop/ros_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lifecycle_py build --build-base /home/poom/Desktop/ros_ws/build/lifecycle_py/build install --record /home/poom/Desktop/ros_ws/build/lifecycle_py/install.log --single-version-externally-managed install_data --force
