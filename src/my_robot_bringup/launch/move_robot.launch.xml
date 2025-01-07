@@ -6,4 +6,8 @@
     <node pkg="lifecycle_py" exec="move_to_target_server" name="move_robot_server_b">
         <param name="robot_name" value="B" />
     </node>
+
+    <node pkg="lifecycle_py" exec="move_robot_startup">
+        <param name="managed_node_names" value="['move_robot_server_a','move_robot_server_b']" />
+    </node>
 </launch>

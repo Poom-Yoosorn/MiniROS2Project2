@@ -1,0 +1,22 @@
+[0.481s] Invoking command in '/home/poom/Desktop/ros_ws/build/lifecycle_py': PYTHONPATH=/home/poom/Desktop/ros_ws/build/lifecycle_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/poom/Desktop/ros_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/poom/Desktop/ros_ws/build/lifecycle_py/build --no-deps symlink_data
+[0.672s] running develop
+[0.674s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.674s]   warnings.warn(
+[0.756s] running egg_info
+[0.756s] writing lifecycle_py.egg-info/PKG-INFO
+[0.757s] writing dependency_links to lifecycle_py.egg-info/dependency_links.txt
+[0.758s] writing entry points to lifecycle_py.egg-info/entry_points.txt
+[0.758s] writing requirements to lifecycle_py.egg-info/requires.txt
+[0.758s] writing top-level names to lifecycle_py.egg-info/top_level.txt
+[0.758s] reading manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+[0.759s] writing manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+[0.760s] running build_ext
+[0.760s] Creating /home/poom/Desktop/ros_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle-py.egg-link (link to .)
+[0.761s] Installing lifecycle_node_manager script to /home/poom/Desktop/ros_ws/install/lifecycle_py/lib/lifecycle_py
+[0.761s] Installing move_robot_startup script to /home/poom/Desktop/ros_ws/install/lifecycle_py/lib/lifecycle_py
+[0.761s] Installing move_to_target_server script to /home/poom/Desktop/ros_ws/install/lifecycle_py/lib/lifecycle_py
+[0.761s] Installing number_publisher script to /home/poom/Desktop/ros_ws/install/lifecycle_py/lib/lifecycle_py
+[0.761s] 
+[0.761s] Installed /home/poom/Desktop/ros_ws/build/lifecycle_py
+[0.761s] running symlink_data
+[0.776s] Invoked command in '/home/poom/Desktop/ros_ws/build/lifecycle_py' returned '0': PYTHONPATH=/home/poom/Desktop/ros_ws/build/lifecycle_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/poom/Desktop/ros_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/poom/Desktop/ros_ws/build/lifecycle_py/build --no-deps symlink_data
