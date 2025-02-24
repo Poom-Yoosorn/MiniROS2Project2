@@ -8,7 +8,8 @@
       "includePath": [
         "/opt/ros/humble/include/**",
         "/usr/include/**",
-        "/home/poom/Desktop/ros_ws/install/my_robot_interfaces/include/**"
+        "/home/poom/Desktop/ros_ws/install/my_robot_interfaces/include/**",
+        "/home/poom/Desktop/ros_ws/src/components_cpp/include/**"
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",
