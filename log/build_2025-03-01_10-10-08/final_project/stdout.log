@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target final_project[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/final_project.dir/src/final_project.cpp.o[0m
+[100%] [32m[1mLinking CXX executable final_project[0m
+[100%] Built target final_project
+-- Install configuration: ""
+-- Installing: /home/poom/Desktop/ros_ws/install/final_project/lib/final_project/final_project
+-- Set runtime path of "/home/poom/Desktop/ros_ws/install/final_project/lib/final_project/final_project" to ""
+-- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/ament_index/resource_index/package_run_dependencies/final_project
+-- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/ament_index/resource_index/parent_prefix_path/final_project
+-- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/environment/ament_prefix_path.sh
+-- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/environment/ament_prefix_path.dsv
+-- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/environment/path.sh
+-- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/environment/path.dsv
+-- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/local_setup.bash
+-- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/local_setup.sh
+-- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/local_setup.zsh
+-- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/local_setup.dsv
+-- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/package.dsv
+-- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/ament_index/resource_index/packages/final_project
+-- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/cmake/final_projectConfig.cmake
+-- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/cmake/final_projectConfig-version.cmake
+-- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/package.xml

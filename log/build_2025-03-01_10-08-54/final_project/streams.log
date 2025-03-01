@@ -1,0 +1,49 @@
+[0.009s] Invoking command in '/home/poom/Desktop/ros_ws/build/final_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/Desktop/ros_ws/install/actions_py:/home/poom/Desktop/ros_ws/install/lifecycle_py:/home/poom/Desktop/ros_ws/install/executors_py:/home/poom/Desktop/ros_ws/install/components_py:/opt/ros/humble /usr/bin/cmake /home/poom/Desktop/ros_ws/src/final_project -DCMAKE_INSTALL_PREFIX=/home/poom/Desktop/ros_ws/install/final_project
+[0.092s] -- The C compiler identification is GNU 11.4.0
+[0.155s] -- The CXX compiler identification is GNU 11.4.0
+[0.162s] -- Detecting C compiler ABI info
+[0.203s] -- Detecting C compiler ABI info - done
+[0.206s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.206s] -- Detecting C compile features
+[0.207s] -- Detecting C compile features - done
+[0.209s] -- Detecting CXX compiler ABI info
+[0.254s] -- Detecting CXX compiler ABI info - done
+[0.259s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.259s] -- Detecting CXX compile features
+[0.259s] -- Detecting CXX compile features - done
+[0.267s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.352s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.417s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.458s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.462s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.470s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.483s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.497s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.537s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.540s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.600s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.614s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.633s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.642s] -- Looking for pthread.h
+[0.680s] -- Looking for pthread.h - found
+[0.680s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.718s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.718s] -- Found Threads: TRUE  
+[0.761s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.824s] -- Configuring done
+[0.829s] -- Generating done
+[0.829s] -- Build files have been written to: /home/poom/Desktop/ros_ws/build/final_project
+[0.834s] Invoked command in '/home/poom/Desktop/ros_ws/build/final_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/Desktop/ros_ws/install/actions_py:/home/poom/Desktop/ros_ws/install/lifecycle_py:/home/poom/Desktop/ros_ws/install/executors_py:/home/poom/Desktop/ros_ws/install/components_py:/opt/ros/humble /usr/bin/cmake /home/poom/Desktop/ros_ws/src/final_project -DCMAKE_INSTALL_PREFIX=/home/poom/Desktop/ros_ws/install/final_project
+[0.836s] Invoking command in '/home/poom/Desktop/ros_ws/build/final_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/Desktop/ros_ws/install/actions_py:/home/poom/Desktop/ros_ws/install/lifecycle_py:/home/poom/Desktop/ros_ws/install/executors_py:/home/poom/Desktop/ros_ws/install/components_py:/opt/ros/humble /usr/bin/cmake --build /home/poom/Desktop/ros_ws/build/final_project -- -j16 -l16
+[0.861s] [ 50%] [32mBuilding CXX object CMakeFiles/final_project.dir/src/final_project.cpp.o[0m
+[2.069s] [01m[K/home/poom/Desktop/ros_ws/src/final_project/src/final_project.cpp:[m[K In member function ‘[01m[Kvoid TurtleController::spawn_turtle()[m[K’:
+[2.069s] [01m[K/home/poom/Desktop/ros_ws/src/final_project/src/final_project.cpp:32:71:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid TurtleController::kill_turtle()[m[K’
+[2.069s]    32 |         kill_turtle_thread_ = std::thread(std::bind([01;31m[KTurtleController::kill_turtle[m[K, this));
+[2.069s]       |                                                     [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[2.069s] [01m[K/home/poom/Desktop/ros_ws/src/final_project/src/final_project.cpp:35:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.069s]    35 |     void [01;36m[Kkill_turtle[m[K()
+[2.069s]       |          [01;36m[K^~~~~~~~~~~[m[K
+[2.449s] gmake[2]: *** [CMakeFiles/final_project.dir/build.make:76: CMakeFiles/final_project.dir/src/final_project.cpp.o] Error 1
+[2.449s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/final_project.dir/all] Error 2
+[2.449s] gmake: *** [Makefile:146: all] Error 2
+[2.451s] Invoked command in '/home/poom/Desktop/ros_ws/build/final_project' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/Desktop/ros_ws/install/actions_py:/home/poom/Desktop/ros_ws/install/lifecycle_py:/home/poom/Desktop/ros_ws/install/executors_py:/home/poom/Desktop/ros_ws/install/components_py:/opt/ros/humble /usr/bin/cmake --build /home/poom/Desktop/ros_ws/build/final_project -- -j16 -l16

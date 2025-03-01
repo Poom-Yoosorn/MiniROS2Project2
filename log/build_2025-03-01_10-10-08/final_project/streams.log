@@ -1,0 +1,26 @@
+[0.006s] Invoking command in '/home/poom/Desktop/ros_ws/build/final_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/Desktop/ros_ws/install/actions_py:/home/poom/Desktop/ros_ws/install/lifecycle_py:/home/poom/Desktop/ros_ws/install/executors_py:/home/poom/Desktop/ros_ws/install/components_py:/opt/ros/humble /usr/bin/cmake --build /home/poom/Desktop/ros_ws/build/final_project -- -j16 -l16
+[0.028s] [35m[1mConsolidate compiler generated dependencies of target final_project[0m
+[0.036s] [ 50%] [32mBuilding CXX object CMakeFiles/final_project.dir/src/final_project.cpp.o[0m
+[2.085s] [100%] [32m[1mLinking CXX executable final_project[0m
+[2.219s] [100%] Built target final_project
+[2.225s] Invoked command in '/home/poom/Desktop/ros_ws/build/final_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/Desktop/ros_ws/install/actions_py:/home/poom/Desktop/ros_ws/install/lifecycle_py:/home/poom/Desktop/ros_ws/install/executors_py:/home/poom/Desktop/ros_ws/install/components_py:/opt/ros/humble /usr/bin/cmake --build /home/poom/Desktop/ros_ws/build/final_project -- -j16 -l16
+[2.243s] Invoking command in '/home/poom/Desktop/ros_ws/build/final_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/Desktop/ros_ws/install/actions_py:/home/poom/Desktop/ros_ws/install/lifecycle_py:/home/poom/Desktop/ros_ws/install/executors_py:/home/poom/Desktop/ros_ws/install/components_py:/opt/ros/humble /usr/bin/cmake --install /home/poom/Desktop/ros_ws/build/final_project
+[2.247s] -- Install configuration: ""
+[2.247s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/lib/final_project/final_project
+[2.248s] -- Set runtime path of "/home/poom/Desktop/ros_ws/install/final_project/lib/final_project/final_project" to ""
+[2.248s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/ament_index/resource_index/package_run_dependencies/final_project
+[2.248s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/ament_index/resource_index/parent_prefix_path/final_project
+[2.248s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/environment/ament_prefix_path.sh
+[2.248s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/environment/ament_prefix_path.dsv
+[2.248s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/environment/path.sh
+[2.248s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/environment/path.dsv
+[2.248s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/local_setup.bash
+[2.248s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/local_setup.sh
+[2.248s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/local_setup.zsh
+[2.248s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/local_setup.dsv
+[2.248s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/package.dsv
+[2.248s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/ament_index/resource_index/packages/final_project
+[2.248s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/cmake/final_projectConfig.cmake
+[2.248s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/cmake/final_projectConfig-version.cmake
+[2.248s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/package.xml
+[2.250s] Invoked command in '/home/poom/Desktop/ros_ws/build/final_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/Desktop/ros_ws/install/actions_py:/home/poom/Desktop/ros_ws/install/lifecycle_py:/home/poom/Desktop/ros_ws/install/executors_py:/home/poom/Desktop/ros_ws/install/components_py:/opt/ros/humble /usr/bin/cmake --install /home/poom/Desktop/ros_ws/build/final_project

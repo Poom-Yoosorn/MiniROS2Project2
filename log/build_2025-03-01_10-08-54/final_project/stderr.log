@@ -1,0 +1,10 @@
+[01m[K/home/poom/Desktop/ros_ws/src/final_project/src/final_project.cpp:[m[K In member function ‘[01m[Kvoid TurtleController::spawn_turtle()[m[K’:
+[01m[K/home/poom/Desktop/ros_ws/src/final_project/src/final_project.cpp:32:71:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid TurtleController::kill_turtle()[m[K’
+   32 |         kill_turtle_thread_ = std::thread(std::bind([01;31m[KTurtleController::kill_turtle[m[K, this));
+      |                                                     [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/poom/Desktop/ros_ws/src/final_project/src/final_project.cpp:35:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   35 |     void [01;36m[Kkill_turtle[m[K()
+      |          [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/final_project.dir/build.make:76: CMakeFiles/final_project.dir/src/final_project.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/final_project.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
