@@ -3,12 +3,16 @@ file(REMOVE_RECURSE
   "CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.o.d"
   "CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/dds_fastrtps/move_to_target__type_support.cpp.o"
   "CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/dds_fastrtps/move_to_target__type_support.cpp.o.d"
+  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/dds_fastrtps/move_turtle__type_support.cpp.o"
+  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/dds_fastrtps/move_turtle__type_support.cpp.o.d"
   "libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
   "libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so"
   "rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/count_until__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/dds_fastrtps/move_to_target__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/dds_fastrtps/move_turtle__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/move_to_target__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/move_turtle__rosidl_typesupport_fastrtps_cpp.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

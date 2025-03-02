@@ -7,7 +7,11 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/my_robot_interfaces/action/detail/move_to_target__builder.hpp"
   "rosidl_generator_cpp/my_robot_interfaces/action/detail/move_to_target__struct.hpp"
   "rosidl_generator_cpp/my_robot_interfaces/action/detail/move_to_target__traits.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/action/detail/move_turtle__builder.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/action/detail/move_turtle__struct.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/action/detail/move_turtle__traits.hpp"
   "rosidl_generator_cpp/my_robot_interfaces/action/move_to_target.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/action/move_turtle.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

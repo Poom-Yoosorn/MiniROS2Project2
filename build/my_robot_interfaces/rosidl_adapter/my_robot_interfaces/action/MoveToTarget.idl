@@ -8,13 +8,19 @@ module my_robot_interfaces {
     @verbatim (language="comment", text=
       "Goal")
     struct MoveToTarget_Goal {
+      @verbatim (language="comment", text=
+        "m")
       int64 position;
 
+      @verbatim (language="comment", text=
+        "m/s")
       int64 velocity;
     };
     @verbatim (language="comment", text=
       "Result")
     struct MoveToTarget_Result {
+      @verbatim (language="comment", text=
+        "m")
       int64 position;
 
       string message;

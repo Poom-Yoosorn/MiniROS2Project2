@@ -20,7 +20,9 @@ extern "C"
 /// Struct defined in action/MoveToTarget in the package my_robot_interfaces.
 typedef struct my_robot_interfaces__action__MoveToTarget_Goal
 {
+  /// m
   int64_t position;
+  /// m/s
   int64_t velocity;
 } my_robot_interfaces__action__MoveToTarget_Goal;
 
@@ -44,6 +46,7 @@ typedef struct my_robot_interfaces__action__MoveToTarget_Goal__Sequence
 /// Struct defined in action/MoveToTarget in the package my_robot_interfaces.
 typedef struct my_robot_interfaces__action__MoveToTarget_Result
 {
+  /// m
   int64_t position;
   rosidl_runtime_c__String message;
 } my_robot_interfaces__action__MoveToTarget_Result;

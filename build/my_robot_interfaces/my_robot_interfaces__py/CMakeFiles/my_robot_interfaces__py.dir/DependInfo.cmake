@@ -19,6 +19,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/poom/Desktop/ros_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/action/_count_until_s.c" "/home/poom/Desktop/ros_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/poom/Desktop/ros_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/action/_move_to_target.py" "/home/poom/Desktop/ros_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/poom/Desktop/ros_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/action/_move_to_target_s.c" "/home/poom/Desktop/ros_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/poom/Desktop/ros_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/action/_move_turtle.py" "/home/poom/Desktop/ros_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/poom/Desktop/ros_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/action/_move_turtle_s.c" "/home/poom/Desktop/ros_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

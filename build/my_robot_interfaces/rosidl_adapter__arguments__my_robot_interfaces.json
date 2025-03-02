@@ -2,6 +2,7 @@
   "package_name": "my_robot_interfaces",
   "non_idl_tuples": [
     "/home/poom/Desktop/ros_ws/src/my_robot_interfaces:action/CountUntil.action",
-    "/home/poom/Desktop/ros_ws/src/my_robot_interfaces:action/MoveToTarget.action"
+    "/home/poom/Desktop/ros_ws/src/my_robot_interfaces:action/MoveToTarget.action",
+    "/home/poom/Desktop/ros_ws/src/my_robot_interfaces:action/MoveTurtle.action"
   ]
 }
