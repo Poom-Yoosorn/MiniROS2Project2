@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/poom/Desktop/ros_ws/build/final_project
 
 # The main recursive "all" target.
 all: CMakeFiles/final_project_component.dir/all
+all: CMakeFiles/turtlebot_control_component.dir/all
 all: CMakeFiles/final_project_step3.dir/all
 .PHONY : all
 
@@ -75,6 +76,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/final_project_uninstall.dir/clean
 clean: CMakeFiles/final_project_component.dir/clean
+clean: CMakeFiles/turtlebot_control_component.dir/clean
 clean: CMakeFiles/final_project_step3.dir/clean
 .PHONY : clean
 
@@ -155,6 +157,32 @@ final_project_component: CMakeFiles/final_project_component.dir/rule
 CMakeFiles/final_project_component.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project_component.dir/build.make CMakeFiles/final_project_component.dir/clean
 .PHONY : CMakeFiles/final_project_component.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/turtlebot_control_component.dir
+
+# All Build rule for target.
+CMakeFiles/turtlebot_control_component.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlebot_control_component.dir/build.make CMakeFiles/turtlebot_control_component.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlebot_control_component.dir/build.make CMakeFiles/turtlebot_control_component.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/poom/Desktop/ros_ws/build/final_project/CMakeFiles --progress-num=5,6 "Built target turtlebot_control_component"
+.PHONY : CMakeFiles/turtlebot_control_component.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/turtlebot_control_component.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/poom/Desktop/ros_ws/build/final_project/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/turtlebot_control_component.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/poom/Desktop/ros_ws/build/final_project/CMakeFiles 0
+.PHONY : CMakeFiles/turtlebot_control_component.dir/rule
+
+# Convenience name for target.
+turtlebot_control_component: CMakeFiles/turtlebot_control_component.dir/rule
+.PHONY : turtlebot_control_component
+
+# clean rule for target.
+CMakeFiles/turtlebot_control_component.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlebot_control_component.dir/build.make CMakeFiles/turtlebot_control_component.dir/clean
+.PHONY : CMakeFiles/turtlebot_control_component.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/final_project_step3.dir

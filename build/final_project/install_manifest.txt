@@ -1,4 +1,5 @@
 /home/poom/Desktop/ros_ws/install/final_project/lib/libfinal_project_component.so
+/home/poom/Desktop/ros_ws/install/final_project/lib/libturtlebot_control_component.so
 /home/poom/Desktop/ros_ws/install/final_project/lib/final_project/final_project_step3
 /home/poom/Desktop/ros_ws/install/final_project/share/ament_index/resource_index/package_run_dependencies/final_project
 /home/poom/Desktop/ros_ws/install/final_project/share/ament_index/resource_index/parent_prefix_path/final_project

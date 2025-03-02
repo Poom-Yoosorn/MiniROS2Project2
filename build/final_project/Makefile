@@ -211,6 +211,19 @@ final_project_component/fast:
 .PHONY : final_project_component/fast
 
 #=============================================================================
+# Target rules for targets named turtlebot_control_component
+
+# Build rule for target.
+turtlebot_control_component: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtlebot_control_component
+.PHONY : turtlebot_control_component
+
+# fast build rule for target.
+turtlebot_control_component/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlebot_control_component.dir/build.make CMakeFiles/turtlebot_control_component.dir/build
+.PHONY : turtlebot_control_component/fast
+
+#=============================================================================
 # Target rules for targets named final_project_step3
 
 # Build rule for target.
@@ -271,6 +284,30 @@ src/final_project_step3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project_step3.dir/build.make CMakeFiles/final_project_step3.dir/src/final_project_step3.cpp.s
 .PHONY : src/final_project_step3.cpp.s
 
+src/final_project_turtlebot.o: src/final_project_turtlebot.cpp.o
+.PHONY : src/final_project_turtlebot.o
+
+# target to build an object file
+src/final_project_turtlebot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlebot_control_component.dir/build.make CMakeFiles/turtlebot_control_component.dir/src/final_project_turtlebot.cpp.o
+.PHONY : src/final_project_turtlebot.cpp.o
+
+src/final_project_turtlebot.i: src/final_project_turtlebot.cpp.i
+.PHONY : src/final_project_turtlebot.i
+
+# target to preprocess a source file
+src/final_project_turtlebot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlebot_control_component.dir/build.make CMakeFiles/turtlebot_control_component.dir/src/final_project_turtlebot.cpp.i
+.PHONY : src/final_project_turtlebot.cpp.i
+
+src/final_project_turtlebot.s: src/final_project_turtlebot.cpp.s
+.PHONY : src/final_project_turtlebot.s
+
+# target to generate assembly for a file
+src/final_project_turtlebot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlebot_control_component.dir/build.make CMakeFiles/turtlebot_control_component.dir/src/final_project_turtlebot.cpp.s
+.PHONY : src/final_project_turtlebot.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,12 +325,16 @@ help:
 	@echo "... uninstall"
 	@echo "... final_project_component"
 	@echo "... final_project_step3"
+	@echo "... turtlebot_control_component"
 	@echo "... src/final_project.o"
 	@echo "... src/final_project.i"
 	@echo "... src/final_project.s"
 	@echo "... src/final_project_step3.o"
 	@echo "... src/final_project_step3.i"
 	@echo "... src/final_project_step3.s"
+	@echo "... src/final_project_turtlebot.o"
+	@echo "... src/final_project_turtlebot.i"
+	@echo "... src/final_project_turtlebot.s"
 .PHONY : help
 
 
