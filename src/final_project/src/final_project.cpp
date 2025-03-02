@@ -15,10 +15,13 @@ using MoveTurtleGoalHandle = rclcpp_action::ServerGoalHandle<MoveTurtle>;
 using namespace std::placeholders;
 using namespace std::chrono_literals;
 
+namespace final_project {
+
+
 class TurtleController : public rclcpp_lifecycle::LifecycleNode
 {
 public:
-    TurtleController() : LifecycleNode("turtle_controller")
+    TurtleController(const rclcpp::NodeOptions &options) : LifecycleNode("turtle_controller", options)
     {
         this->declare_parameter("turtle_name", rclcpp::PARAMETER_STRING);
         cb_group_ = this->create_callback_group(rclcpp::CallbackGroupType::Reentrant);
@@ -223,15 +226,20 @@ private:
 
 };
 
-int main(int argc, char **argv)
-{
-    rclcpp::init(argc, argv);
-    auto node = std::make_shared<TurtleController>();
+} //namespace final_project
 
-    rclcpp::executors::MultiThreadedExecutor executor;
-    executor.add_node(node->get_node_base_interface());
-    executor.spin();
+// int main(int argc, char **argv)
+// {
+//     rclcpp::init(argc, argv);
+//     auto node = std::make_shared<final_project::TurtleController>();
 
-    rclcpp::shutdown();
-    return 0;
-}
+//     rclcpp::executors::MultiThreadedExecutor executor;
+//     executor.add_node(node->get_node_base_interface());
+//     executor.spin();
+
+//     rclcpp::shutdown();
+//     return 0;
+// }
+
+#include "rclcpp_components/register_node_macro.hpp"
+RCLCPP_COMPONENTS_REGISTER_NODE(final_project::TurtleController)

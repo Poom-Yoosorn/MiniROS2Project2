@@ -1,0 +1,50 @@
+[0.010s] Invoking command in '/home/poom/Desktop/ros_ws/build/final_project': CMAKE_PREFIX_PATH=/home/poom/Desktop/ros_ws/install/my_robot_interfaces:/home/poom/Desktop/ros_ws/install/final_project:/home/poom/Desktop/ros_ws/install/actions_cpp:/home/poom/Desktop/ros_ws/install/my_robot_bringup:/home/poom/Desktop/ros_ws/install/my_robot_description:/home/poom/Desktop/ros_ws/install/lifecycle_cpp:/home/poom/Desktop/ros_ws/install/executors_cpp:/home/poom/Desktop/ros_ws/install/components_cpp:/home/poom/Desktop/ros_ws/install/actions_py:/home/poom/Desktop/ros_ws/install/lifecycle_py:/home/poom/Desktop/ros_ws/install/executors_py:/home/poom/Desktop/ros_ws/install/components_py:/opt/ros/humble LD_LIBRARY_PATH=/home/poom/Desktop/ros_ws/install/my_robot_interfaces/lib:/home/poom/Desktop/ros_ws/install/components_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/poom/Desktop/ros_ws/build/final_project -- -j16 -l16
+[0.022s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.090s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.103s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.104s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.107s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.111s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.117s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.132s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.132s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.180s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.202s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.215s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.222s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.231s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.237s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.242s] -- Found my_robot_interfaces: 0.0.0 (/home/poom/Desktop/ros_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.288s] -- Configuring done
+[0.296s] -- Generating done
+[0.297s] -- Build files have been written to: /home/poom/Desktop/ros_ws/build/final_project
+[0.315s] [ 25%] [32mBuilding CXX object CMakeFiles/final_project_component.dir/src/final_project.cpp.o[0m
+[0.315s] [ 50%] [32mBuilding CXX object CMakeFiles/final_project_step3.dir/src/final_project_step3.cpp.o[0m
+[5.489s] [ 75%] [32m[1mLinking CXX executable final_project_step3[0m
+[5.561s] [100%] [32m[1mLinking CXX shared library libfinal_project_component.so[0m
+[5.653s] [100%] Built target final_project_step3
+[5.742s] [100%] Built target final_project_component
+[5.749s] Invoked command in '/home/poom/Desktop/ros_ws/build/final_project' returned '0': CMAKE_PREFIX_PATH=/home/poom/Desktop/ros_ws/install/my_robot_interfaces:/home/poom/Desktop/ros_ws/install/final_project:/home/poom/Desktop/ros_ws/install/actions_cpp:/home/poom/Desktop/ros_ws/install/my_robot_bringup:/home/poom/Desktop/ros_ws/install/my_robot_description:/home/poom/Desktop/ros_ws/install/lifecycle_cpp:/home/poom/Desktop/ros_ws/install/executors_cpp:/home/poom/Desktop/ros_ws/install/components_cpp:/home/poom/Desktop/ros_ws/install/actions_py:/home/poom/Desktop/ros_ws/install/lifecycle_py:/home/poom/Desktop/ros_ws/install/executors_py:/home/poom/Desktop/ros_ws/install/components_py:/opt/ros/humble LD_LIBRARY_PATH=/home/poom/Desktop/ros_ws/install/my_robot_interfaces/lib:/home/poom/Desktop/ros_ws/install/components_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/poom/Desktop/ros_ws/build/final_project -- -j16 -l16
+[5.769s] Invoking command in '/home/poom/Desktop/ros_ws/build/final_project': CMAKE_PREFIX_PATH=/home/poom/Desktop/ros_ws/install/my_robot_interfaces:/home/poom/Desktop/ros_ws/install/final_project:/home/poom/Desktop/ros_ws/install/actions_cpp:/home/poom/Desktop/ros_ws/install/my_robot_bringup:/home/poom/Desktop/ros_ws/install/my_robot_description:/home/poom/Desktop/ros_ws/install/lifecycle_cpp:/home/poom/Desktop/ros_ws/install/executors_cpp:/home/poom/Desktop/ros_ws/install/components_cpp:/home/poom/Desktop/ros_ws/install/actions_py:/home/poom/Desktop/ros_ws/install/lifecycle_py:/home/poom/Desktop/ros_ws/install/executors_py:/home/poom/Desktop/ros_ws/install/components_py:/opt/ros/humble LD_LIBRARY_PATH=/home/poom/Desktop/ros_ws/install/my_robot_interfaces/lib:/home/poom/Desktop/ros_ws/install/components_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/poom/Desktop/ros_ws/build/final_project
+[5.772s] -- Install configuration: ""
+[5.772s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/lib/libfinal_project_component.so
+[5.774s] -- Set runtime path of "/home/poom/Desktop/ros_ws/install/final_project/lib/libfinal_project_component.so" to ""
+[5.774s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/lib/final_project/final_project_step3
+[5.775s] -- Set runtime path of "/home/poom/Desktop/ros_ws/install/final_project/lib/final_project/final_project_step3" to ""
+[5.775s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/ament_index/resource_index/package_run_dependencies/final_project
+[5.775s] -- Up-to-date: /home/poom/Desktop/ros_ws/install/final_project/share/ament_index/resource_index/parent_prefix_path/final_project
+[5.775s] -- Up-to-date: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/environment/ament_prefix_path.sh
+[5.775s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/environment/ament_prefix_path.dsv
+[5.775s] -- Up-to-date: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/environment/path.sh
+[5.775s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/environment/path.dsv
+[5.775s] -- Up-to-date: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/local_setup.bash
+[5.775s] -- Up-to-date: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/local_setup.sh
+[5.775s] -- Up-to-date: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/local_setup.zsh
+[5.775s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/local_setup.dsv
+[5.775s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/package.dsv
+[5.776s] -- Up-to-date: /home/poom/Desktop/ros_ws/install/final_project/share/ament_index/resource_index/packages/final_project
+[5.776s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/ament_index/resource_index/rclcpp_components/final_project
+[5.776s] -- Up-to-date: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/cmake/final_projectConfig.cmake
+[5.776s] -- Up-to-date: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/cmake/final_projectConfig-version.cmake
+[5.776s] -- Installing: /home/poom/Desktop/ros_ws/install/final_project/share/final_project/package.xml
+[5.777s] Invoked command in '/home/poom/Desktop/ros_ws/build/final_project' returned '0': CMAKE_PREFIX_PATH=/home/poom/Desktop/ros_ws/install/my_robot_interfaces:/home/poom/Desktop/ros_ws/install/final_project:/home/poom/Desktop/ros_ws/install/actions_cpp:/home/poom/Desktop/ros_ws/install/my_robot_bringup:/home/poom/Desktop/ros_ws/install/my_robot_description:/home/poom/Desktop/ros_ws/install/lifecycle_cpp:/home/poom/Desktop/ros_ws/install/executors_cpp:/home/poom/Desktop/ros_ws/install/components_cpp:/home/poom/Desktop/ros_ws/install/actions_py:/home/poom/Desktop/ros_ws/install/lifecycle_py:/home/poom/Desktop/ros_ws/install/executors_py:/home/poom/Desktop/ros_ws/install/components_py:/opt/ros/humble LD_LIBRARY_PATH=/home/poom/Desktop/ros_ws/install/my_robot_interfaces/lib:/home/poom/Desktop/ros_ws/install/components_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/poom/Desktop/ros_ws/build/final_project
