@@ -1,5 +1,6 @@
 /home/poom/Desktop/ros_ws/install/my_robot_bringup/share/my_robot_bringup//launch/components.launch.py
 /home/poom/Desktop/ros_ws/install/my_robot_bringup/share/my_robot_bringup//launch/components.launch.xml
+/home/poom/Desktop/ros_ws/install/my_robot_bringup/share/my_robot_bringup//launch/final_project.launch.xml
 /home/poom/Desktop/ros_ws/install/my_robot_bringup/share/my_robot_bringup//launch/lifecycle_test.launch.py
 /home/poom/Desktop/ros_ws/install/my_robot_bringup/share/my_robot_bringup//launch/lifecycle_test.launch.xml
 /home/poom/Desktop/ros_ws/install/my_robot_bringup/share/my_robot_bringup//launch/move_robot.launch.xml
